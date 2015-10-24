@@ -1,0 +1,31 @@
+{
+  "name": "chrome-pgp",
+  "version": "1.0.0",
+  "homepage": "https://github.com/atd-schubert/chrome-openpgp",
+  "authors": [
+    "Arne Schubert <atd.schubert@gmail.com>"
+  ],
+  "description": "Extend chrome browsers with OpenPGP and a private saved secure secret key",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "chrome-extension",
+    "gpg",
+    "openpgp",
+    "encyption",
+    "decyption"
+  ],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "openpgp": "~1.3.0"
+  }
+}
