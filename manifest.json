@@ -17,7 +17,7 @@
   "web_accessible_resources": [],
 
   "background": {
-    "scripts": ["event.js"],
+    "scripts": ["bower_components/openpgp/dist/openpgp.js", "event.js"],
     "persistent": true
   },
 
