@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "OpenPGP",
+  "version": "1.0.0",
+  "description": "Extend chrome browsers with OpenPGP and a private saved secure secret key",
+
+  "browser_action": {
+    "default_icon": "icon19.png",
+    "default_popup": "popup/index.html",
+    "default_title": "OpenPGP-Settings"
+  },
+
+  "web_accessible_resources": [],
+
+  "background": {
+    "scripts": [],
+    "persistent": true
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "activeTab"
+  ]
+}
