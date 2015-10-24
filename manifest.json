@@ -6,15 +6,18 @@
   "description": "Extend chrome browsers with OpenPGP and a private saved secure secret key",
 
   "browser_action": {
-    "default_icon": "icon19.png",
+    "default_icon": "icon.png",
     "default_popup": "popup/index.html",
     "default_title": "OpenPGP-Settings"
+  },
+  "icons": {
+    "96": "icon.png"
   },
 
   "web_accessible_resources": [],
 
   "background": {
-    "scripts": [],
+    "scripts": ["event.js"],
     "persistent": true
   },
 
